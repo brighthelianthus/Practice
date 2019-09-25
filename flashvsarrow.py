@@ -49,19 +49,11 @@ def show_linear_line (x1, y1,x2,y2):
     plt.scatter(x1, y1, color='violet')
     plt.scatter(x2, y2, color='yellow')
 
-    # plt.plot(x_parameters, regr.predict(x_parameters), color='red', linewidth=3)
-    # plt.xticks(range(0,7,1))
-    # plt.yticks(range(0,7,1))
-    # plt.show()
 
     plt.plot(x1, regr1.predict(x1), color='purple', linewidth=2)
     plt.plot(x2, regr2.predict(x2), color='orange', linewidth=2)
     plt.show()
-    # data1 = [trace1, trace2]
-    # layout1 = go.Layout(title='Flash vs Arrow viewers', plot_bgcolor= '#000000', showlegend=True)
-    # fig1 = go.Figure(data=data1,layout=layout1)
-    #
-    # offline.plot(fig1, filename='comparison plot')
+
 ## Operation ##
 x1,y1,x2,y2 = get_data('tvshowdata.csv')
 more_viewers(x1,y1,x2,y2)
