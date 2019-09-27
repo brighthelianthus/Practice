@@ -1,2 +1,3 @@
-# PlotlyPracPython
-Practising plotly module usage in python
+# plotly module python
+# data analysis
+# matplotlib
